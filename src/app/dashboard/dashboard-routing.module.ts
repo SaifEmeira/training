@@ -16,12 +16,13 @@ const routes: Routes = [
 
    },
 
-  {path:"**",component:NotfoundComponent},
+  
 
 
    
 
-   {path:'login',component:LoginComponent}
+   {path:'login',component:LoginComponent},
+   {path:"**",component:NotfoundComponent},
 ];
 
 @NgModule({
