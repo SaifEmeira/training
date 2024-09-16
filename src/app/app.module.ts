@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
+import { Router } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import {MatInputModule} from '@angular/material/input';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatFormFieldModule, MatInputModule, MatButtonModule, MatIconModule
+    MatFormFieldModule, MatInputModule, MatButtonModule, MatIconModule,
   ],
   
   providers: [],
