@@ -1,0 +1,271 @@
+.header-home {
+  background-image: url(../../../../assets/images/impression-header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // height: 340px;
+  padding-bottom: 56px;
+  padding-top: 56px;
+}
+.header-title {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  vertical-align: baseline;
+}
+.title-border {
+  border-bottom-width: 12px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 82, 82, 1);
+  display: block;
+}
+
+.home-title-border {
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 82, 82, 1);
+  display: block;
+}
+.home-title {
+  color: #a64d79;
+  font-family: Arial;
+  font-weight: 700;
+  vertical-align: baseline;
+}
+
+.squeak-par-title{
+  color: #980000;
+  font-family: Arial;
+  font-weight: 700;
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+.picture-title {
+  color: #980000;
+  font-family: Arial;
+  font-weight: 600;
+  vertical-align: baseline;
+  font-size: 26px;
+  padding-top: 10px;
+}
+
+.text-home {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 12pt;
+  font-variant: normal;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+
+.demo-btn {
+  background-color: #d3413f;
+  border-color: rgba(255, 255, 255, 1);
+  transition: all 0.5s;
+}
+
+.demo-btn:hover {
+  box-shadow: 0px 0px 13px -3px rgba(0, 0, 0, 0.78);
+}
+
+.body-request {
+  font-family: "Open Sans";
+  color: rgba(33, 33, 33, 1);
+  font-size: 20px;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.picture-desc{
+    color: #817d7d;
+    font-family: Arial;
+    font-size: 12.0pt;
+    font-weight: 400;
+    vertical-align: baseline;
+}
+
+.squeak-title{
+    color: #f06464;
+    font-family: Arial;
+    font-weight: 700;
+    text-decoration: underline;
+    vertical-align: baseline;
+    font-size: 48px !important;
+  // text-transform: uppercase;
+}
+
+.squeak-par{
+  color: #817d7d;
+  font-family: Arial;
+  font-size: 12.0pt;
+  font-weight: 400;
+  vertical-align: baseline;
+  
+}
+
+.squeak-title-border{
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 82, 82, 1);
+  display: block;
+  
+}
+.squeak-end{
+  width: 77%;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.carousel-img{
+  position: absolute;
+  top: -35%;
+  left: 44%;
+  
+}
+.c-image{
+width: 100px;;
+height: 100px;
+}
+.c-btn{
+  background-color: #585757;
+  color: white;
+}
+
+.end-img{
+  position: absolute;
+  bottom: -4%;
+  left: 2%;
+  
+}
+.indicator{
+  width: 10px;
+  height: 10px;
+  background-color: #959494;
+}
+ .active{
+background-color: #980000;
+}
+
+.indicator:hover{
+background-color: #980000;
+
+}
+.footer{
+  background-color: #D3413F;
+}
+.img{
+  width:40px ;
+  height: 40px;
+}
+.footer-links{
+  left: 0;
+  top: 0;
+  bottom: 5%;
+}
+.footer-btn{
+  background-color: #D3413F;
+  border-color: white;
+}
+.footer-btn:hover{
+  background-color: #f06464;
+}
+
+.modal-shape{
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+// .modal-content{
+//   width:
+// }
+
+.modal-dialog{
+  margin: 0  !important; 
+  width: 100% !important;
+   padding: 0 20px;
+}
+.modal-content{
+  
+  width: 360% !important;
+}
+
+.home-vet{
+  line-height: 2.5;
+}
+
+
+
+@media only screen and (max-width: 790px) {
+
+  .end-img{
+    position: absolute;
+    bottom: -4%;
+    left: -5%;
+    width: 50px;
+    height: 50px;
+    
+  }
+
+  .carousel-img{
+    position: absolute;
+    top: -20%;
+    left: 19%;
+    
+  }
+  
+
+  .footer-links{
+    
+      left: 26%;
+      top: 0;
+      bottom: 140%;
+      margin-bottom: 0px;
+      
+    
+  }
+  
+
+  .footer-container{
+    height: 130px;
+  }
+
+  .btn-div{
+    padding-top: 40px;
+  }
+.prev-btn{
+  margin-right: 30px;
+}
+.home-carousel{
+  width: 250%;
+}
+
+.modal-content{
+  
+  width: 210% !important;
+}
+
+.modal-dialog{
+  margin: 0  !important; 
+  width: 50% !important;
+   padding: 0 10px;
+}
+  
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 800px)  {
+
+  .modal-content{
+  
+    width: 200% !important;
+  }
+
+  .carousel-img{
+    position: absolute;
+    top: -20%;
+    left: 35%;
+    
+  }
+  
+}

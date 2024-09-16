@@ -1,0 +1,104 @@
+
+<section class="" >
+
+  <nav #nav class="navbar z-3 navbar-expand-lg fixed-top  ">
+    <div class="container-fluid   px-3">
+      
+      <a class="navbar-brand nav-img" routerLink="home"
+        ><img class="w-50 navbar-img" src="../../../../assets/images/app-print-.png" alt=""
+      /></a>
+      <span #title class="fw-bolder nav-title text-white fs-5">VetICare Connect</span>
+      <button
+        class="navbar-toggler nav-btn border-0 "
+        type="button"
+        data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"
+      >
+        <span #navIcon class="navbar-toggler-icon  nav-icon  "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item pe-2">
+            <a class="nav-link text-white fw-bolder" routerLink="home" routerLinkActive="active"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item pe-2">
+            <a
+              #login
+              class="nav-link fw-bolder text-white"
+              routerLink="login"
+              routerLinkActive="active"
+              >Login</a
+            >
+          </li>
+          
+        </ul>
+        
+      </div>
+      <a class=" cursor"
+              ><i
+                #search
+                type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                
+                class="fas fa-search text-white"
+              ></i
+            ></a>
+
+            
+
+
+            
+    </div>
+
+
+  
+   
+    
+    
+  </nav>
+
+  
+  
+
+
+
+
+
+  
+
+</section>
+
+
+
+
+
+<div class="offcanvas offcanvas-start w-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header me-auto">
+    
+    <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item text-center fw-bolder">
+        <a class="nav-link" routerLink="home" routerLinkActive="active"
+          >Home</a
+        >
+      </li>
+      <li class="nav-item text-center fw-bolder">
+        <a
+          #login
+          class="nav-link text-black"
+          routerLink="login"
+          routerLinkActive="active"
+          >Login</a
+        >
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+
+

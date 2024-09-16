@@ -1,0 +1,80 @@
+<section
+  class="vh-100 login-section d-flex justify-content-center align-items-center"
+>
+  <div class="blur-form">
+    
+    <div class="blur-body">
+      <div class="form-title">
+        <h2>Welcome to <span class="text-danger">VetICare Connect</span></h2>
+        <h2 class="my-2">Sign in</h2>
+      </div>
+
+      <div class="form-body py-4">
+        <mat-form-field class="w-100" appearance="outline">
+          <mat-label>Clinic Code</mat-label>
+          <input matInput placeholder="" />
+          <mat-icon matSuffix>gesture</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field class="w-100" appearance="outline">
+          <mat-label>Email</mat-label>
+          <input
+            matInput
+            placeholder=""
+            [formControl]="email"
+            (blur)="updateErrorMessage()"
+            required
+          />
+
+          <mat-error *ngIf="email.invalid">{{ errorMessage() }}</mat-error>
+
+          <mat-icon matSuffix>face</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field class="w-100" appearance="outline">
+          <mat-label>Password</mat-label>
+          <input
+            matInput
+            [type]="hide() ? 'password' : 'text'"
+            placeholder=""
+            [formControl]="password"
+            (blur)="updateErrorMessagePass()"
+            required
+          />
+
+          <mat-error *ngIf="email.invalid">{{ errorMessage() }}</mat-error>
+
+          <button
+            mat-icon-button
+            matSuffix
+            (click)="clickEvent($event)"
+            [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide()"
+          >
+            <mat-icon>{{ hide() ? "visibility_off" : "visibility" }}</mat-icon>
+          </button>
+        </mat-form-field>
+      </div>
+
+      <div class="text-end">
+        <a href="" class="text-decoration-none text-black">Forgot Password ?</a>
+      </div>
+
+      <div class="m-auto mt-3 d-flex justify-content-center align-items-center">
+        <button class="border-0  py-3 px-5 rounded  form-btn text-white w-75">LOGIN</button>
+      </div>
+
+
+      <div class="m-auto w75 mt-3 d-flex justify-content-center align-items-center">
+        <img class="w-25" src="../../../../assets/images/app-print-.png" alt="">
+      </div>
+
+
+      <div class="m-auto w75 mt-3 d-flex justify-content-center align-items-center">
+        <h4>VetICare</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="white-circle"></div>
+</section>
