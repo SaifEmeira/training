@@ -236,13 +236,13 @@ background-color: white !important;
     
   }
 
-  .carousel:hover .next-btn{
+   .next-btn{
     display: block;
     background-color: transparent !important;
     
     } 
     
-    .carousel:hover .prev-btn{
+     .prev-btn{
       display: block;
     background-color: transparent !important;
       }
@@ -278,11 +278,11 @@ background-color: white !important;
     padding-top: 40px;
   }
 .prev-btn{
-  margin-right: 110px;
+  margin-right: 45px;
 }
 
 .next-btn{
-  margin-left: 110px;
+  margin-right: 45px;
 }
 .home-carousel{
   width: 100% !important;
