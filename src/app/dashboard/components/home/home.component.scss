@@ -142,7 +142,7 @@ height: 100px;
   height: 10px;
   background-color: #959494;
 }
- .active{
+ .carousel-indicators .active{
 background-color: #980000;
 }
 
@@ -177,9 +177,23 @@ background-color: #980000;
   right: 0;
   z-index: 20;
 }
-// .modal-content{
-//   width:
-// }
+
+.prev-btn{
+  display: none;
+}
+
+
+.next-btn{
+display: none;
+}
+
+.carousel:hover .next-btn{
+display: block;
+} 
+
+.carousel:hover .prev-btn{
+  display: block;
+  }
 
 .modal-dialog{
   margin: 0  !important; 
@@ -206,6 +220,10 @@ background-color: #980000;
     width: 50px;
     height: 50px;
     
+  }
+
+  .carousel-body{
+    width: 100% !important;
   }
 
   .carousel-img{
@@ -235,10 +253,14 @@ background-color: #980000;
     padding-top: 40px;
   }
 .prev-btn{
-  margin-right: 30px;
+  margin-right: 110px;
+}
+
+.next-btn{
+  margin-left: 110px;
 }
 .home-carousel{
-  width: 250%;
+  width: 100% !important;
 }
 
 .modal-content{
