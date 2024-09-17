@@ -9,11 +9,12 @@ import { Router, RouterLink, RouterLinkActive } from '@angular/router';
   standalone: true,
   imports:[CommonModule , RouterLink,RouterLinkActive ],
   
+
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
-constructor(private _Renderer2:Renderer2){}
+constructor(private _Renderer2:Renderer2 , private _Router:Router){}
 
 
   @ViewChild('nav') navElement!:ElementRef;
@@ -57,6 +58,10 @@ this._Renderer2.addClass(this.navIcon.nativeElement,'nav-icon')
   }
 
   
+}
+
+goHome(){
+this._Router.navigate(["/dashboard/home"])
 }
 
 }
