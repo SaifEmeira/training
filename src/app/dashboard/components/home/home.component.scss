@@ -180,34 +180,34 @@ background-color: #980000;
 
 .prev-btn{
   
-  opacity: 0;
+  opacity: 1 !important;
+  z-index: 9;
 background-color: white !important;
 
 }
 
 
 .next-btn{
-
-opacity: 0;
+opacity: 1;
+z-index: 9 !important;
 background-color: white !important;
 
 }
 
-.carousel{
-}
+// .carousel{
+// }
 
-.carousel:hover .next-btn{
+// .carousel:hover .next-btn{
 
-opacity: 1 !important;
-z-index: 9 !important;
+// opacity: 1 !important;
+// z-index: 9 !important;
 
-} 
+// } 
 
-.carousel:hover .prev-btn{
+// .carousel:hover .prev-btn{
   
-opacity: 1 !important;
-z-index: 9 !important;
-  }
+
+//   }
 
 .modal-dialog{
   margin: 0  !important; 
