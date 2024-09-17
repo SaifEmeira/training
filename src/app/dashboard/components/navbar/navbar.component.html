@@ -4,10 +4,10 @@
   <nav #nav class="navbar z-3 navbar-expand-lg fixed-top  ">
     <div class="container-fluid   px-3">
       
-      <a class="navbar-brand nav-img" routerLink="home"
+      <a class="navbar-brand nav-img"  href="home"
         ><img class="w-50 navbar-img" src="../../../../assets/images/app-print-.png" alt=""
       /></a>
-      <span #title class="fw-bolder nav-title text-white fs-5">VetICare Connect</span>
+      <a class="text-decoration-none" href="home"><span #title class="fw-bolder nav-title text-white fs-5">VetICare Connect</span></a>
       <button
         class="navbar-toggler nav-btn border-0 "
         type="button"
@@ -26,9 +26,8 @@
             <a
               #login
               class="nav-link fw-bolder text-white"
-              routerLink="/auth/login"
-              routerLinkActive="active"
-              >Login</a
+              href="https://vic.veticareapp.com:90/#/%20%20%20admin/authentication/signin"
+              target="_blank">Login</a
             >
           </li>
           
